@@ -1,3 +1,3 @@
-# laravel-local-dev-environment-template
+# Basic laravel project in docker
 
-Simple and easy to use laravel docker template
+simple laravel project
