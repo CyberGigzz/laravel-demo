@@ -37,6 +37,13 @@
 
                             @endguest
 
+                            @auth
+                                <form action="/logout" method="POST">
+                                    @csrf
+                                    <x-form-button>Log Out</x-form-button>
+                                </form>
+                            @endauth
+
                         </div>
                     </div>
                     <div class="-mr-2 flex md:hidden">
